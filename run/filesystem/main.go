@@ -15,7 +15,7 @@ import (
 )
 
 const mntDir = "/mnt/nfs/filestore"
-const filename = "testfile"
+const filename = "test-Wed-Feb-23-16:48-2022.txt"
 
 func handler(w http.ResponseWriter, r *http.Request) {
   path := filepath.Join(mntDir, filename)
